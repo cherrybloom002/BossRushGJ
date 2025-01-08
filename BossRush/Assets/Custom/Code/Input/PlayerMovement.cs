@@ -5,6 +5,8 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
 
+    SpriteRenderer spRend;
+
     public int moveSpeed;
 
     public int jumpPower;
@@ -15,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        spRend = GetComponent<SpriteRenderer>();
     }
     
     void Update()
@@ -33,6 +36,8 @@ public class PlayerMovement : MonoBehaviour
     public void Move(InputAction.CallbackContext value)
     {
         moveDirection = value.ReadValue<Vector2>();
+        spRend.flipX = rb.linearVelocity.x > 0f;
+        
     }
 
     void FixedUpdate()
