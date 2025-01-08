@@ -484,11 +484,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1663317259}
   - component: {fileID: 1663317258}
-  - component: {fileID: 1663317257}
-  - component: {fileID: 1663317260}
-  - component: {fileID: 1663317262}
   - component: {fileID: 1663317261}
   - component: {fileID: 1663317263}
+  - component: {fileID: 1663317260}
+  - component: {fileID: 1663317262}
   m_Layer: 7
   m_Name: player
   m_TagString: Player
@@ -496,25 +495,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1663317257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1663317255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57c008f954fe54a8bb972de1018a2cb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RootBone: {fileID: 0}
-  m_BoneTransforms: []
-  m_Bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_AlwaysUpdate: 1
-  m_AutoRebind: 0
 --- !u!212 &1663317258
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -560,7 +540,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: 900e2a52d33b1fe4ab4a883bfb185fea, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -580,8 +560,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.97, y: -0.07, z: -9.9030485}
-  m_LocalScale: {x: -0.687108, y: -0.6289, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 0.9152855, z: -1.4553753}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -614,26 +594,6 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1663317262}
         m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
-        m_MethodName: Move
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 38283f17-5dd0-40f6-bdf7-f2347f15e77c
-    m_ActionName: 'Horizontal/Movement[/Keyboard/a,/Keyboard/d]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 0baadf82-5f2a-4576-a95b-467869a3b865
-    m_ActionName: 'Horizontal/Attack[/Mouse/leftButton]'
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1663317262}
-        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
         m_MethodName: Jump
         m_Mode: 0
         m_Arguments:
@@ -644,11 +604,27 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: 626ceb7f-73ad-4e82-abba-d84c1da75d10
-    m_ActionName: 'Horizontal/Jump[/Keyboard/space]'
+    m_ActionId: a7c9484e-4af5-46a8-9703-3203d748d00e
+    m_ActionName: 'Player Action/Jump[/Keyboard/space]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1663317262}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: Move
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 0cfd4d7c-970c-490e-be1c-6813ac7b25ef
+    m_ActionName: 'Player Action/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard
-  m_DefaultActionMap: Horizontal
+  m_DefaultActionMap: Player Action
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!50 &1663317261
@@ -690,9 +666,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67bf6c1048ef40c49b40082c6ab30fe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1663317261}
-  moveSpeed: 5
-  JumpPower: 1000
+  moveSpeed: 15
+  jumpPower: 20
 --- !u!58 &1663317263
 CircleCollider2D:
   m_ObjectHideFlags: 0

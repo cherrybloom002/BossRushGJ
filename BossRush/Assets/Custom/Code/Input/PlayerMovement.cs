@@ -3,13 +3,13 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public Rigidbody2D rb;
+    Rigidbody2D rb;
 
-    public float moveSpeed;
+    public int moveSpeed;
 
-    public int JumpPower;
+    public int jumpPower;
     
-    Vector2 _moveDirection;
+    Vector2 moveDirection;
 
     
     void Start()
@@ -17,26 +17,26 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
     
-    private void Update()
+    void Update()
     {
    
     }
 
     public void Jump(InputAction.CallbackContext value)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (value.started)
         {
-            rb.AddForce(new Vector2(rb.linearVelocity.x, JumpPower));
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
         }
     }
 
     public void Move(InputAction.CallbackContext value)
     {
-        _moveDirection = value.ReadValue<Vector2>();
+        moveDirection = value.ReadValue<Vector2>();
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
-        rb.linearVelocity = new Vector2(_moveDirection.x * moveSpeed, _moveDirection.y * moveSpeed);
+        rb.linearVelocity = new Vector2(moveDirection.x * moveSpeed, rb.linearVelocity.y);
     }
 }
