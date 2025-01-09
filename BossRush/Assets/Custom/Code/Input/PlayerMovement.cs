@@ -7,12 +7,13 @@ public class PlayerMovement : MonoBehaviour
 
     SpriteRenderer spRend;
 
+    public Animator animator;
+
     public int moveSpeed;
 
     public int jumpPower;
     
     Vector2 moveDirection;
-
     
     void Start()
     {
@@ -22,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     
     void Update()
     {
-   
+        // THIS IS FOR WALK/RUN: animator.SetFloat("Speed", Mathf.Abs(Input.GetAxisRaw("Horizontal") * moveSpeed));
     }
 
     public void Jump(InputAction.CallbackContext value)
@@ -30,6 +31,14 @@ public class PlayerMovement : MonoBehaviour
         if (value.started)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
+        }
+    }
+
+    public void Spin(InputAction.CallbackContext value)
+    {
+        if (value.started)
+        {
+            animator.SetTrigger("tg");
         }
     }
 

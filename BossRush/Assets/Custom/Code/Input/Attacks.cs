@@ -27,4 +27,5 @@ public class Attacks : MonoBehaviour
             Instantiate(bullet, bulletPos.position, Quaternion.identity);
         }
     }
+    
 }

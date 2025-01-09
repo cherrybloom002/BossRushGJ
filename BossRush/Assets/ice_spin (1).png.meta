@@ -535,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ice_spin (1)_0: 8004571430580370658
+      ice_spin (1)_1: 3002082242980277735
+      ice_spin (1)_10: 4710074139165879686
+      ice_spin (1)_11: -2983599881347857696
+      ice_spin (1)_12: -5345534111813609708
+      ice_spin (1)_13: -886429481115743066
+      ice_spin (1)_14: 7179337722201259187
+      ice_spin (1)_15: -7351031608842309297
+      ice_spin (1)_2: 1047723336955818125
+      ice_spin (1)_3: -2720382617723495462
+      ice_spin (1)_4: 1589716859291061759
+      ice_spin (1)_5: -8908392279673117287
+      ice_spin (1)_6: -6670382031415602527
+      ice_spin (1)_7: 3309288467991608454
+      ice_spin (1)_8: 3018911631045279577
+      ice_spin (1)_9: 1174436748743065413
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
