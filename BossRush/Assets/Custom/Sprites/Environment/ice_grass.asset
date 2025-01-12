@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
   m_Name: ice_grass
   m_EditorClassIdentifier: 
-  m_DefaultSprite: {fileID: 446659557, guid: 4b9b66ddcd4e022438ff87c69c00fa36, type: 3}
+  m_DefaultSprite: {fileID: -2132133916, guid: 4b9b66ddcd4e022438ff87c69c00fa36, type: 3}
   m_DefaultGameObject: {fileID: 0}
   m_DefaultColliderType: 1
   m_TilingRules:
