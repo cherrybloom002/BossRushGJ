@@ -55,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (value.started)
         {
-            animator.SetTrigger("tg");
+            animator.SetBool("TG", true);
         }
     }
 
@@ -64,6 +64,11 @@ public class PlayerMovement : MonoBehaviour
         moveDirection = value.ReadValue<Vector2>();
         //spRend.flipX = rb.linearVelocity.x > 0f;
         
+    }
+
+    public void endAttack()
+    {
+        animator.SetBool("TG", false);
     }
 
     void FixedUpdate()
