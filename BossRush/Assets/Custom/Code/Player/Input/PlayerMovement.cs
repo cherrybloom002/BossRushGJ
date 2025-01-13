@@ -4,16 +4,24 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
-
-    //SpriteRenderer spRend;
-
-    public Animator animator;
-
-    public int moveSpeed;
-
-    public int jumpPower;
     
     Vector2 moveDirection;
+
+    [SerializeField]
+    private Transform groundCheck;
+    [SerializeField]
+    private LayerMask collisionMask;
+    //SpriteRenderer spRend;
+    [SerializeField]
+    public Animator animator;
+    [SerializeField]
+    public int moveSpeed;
+    [SerializeField]
+    public int jumpPower;
+    [SerializeField]
+    private float groundCheckRadius;
+    
+    
     
     void Start()
     {
@@ -32,19 +40,24 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext value)
     {
-        if (value.started)
+        if (value.started && isGrounded())
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
         }
     }
 
-    //public void Spin(InputAction.CallbackContext value)
-    //{
-    //    if (value.started)
-    //    {
-    //        animator.SetTrigger("tg");
-    //    }
-    //}
+    private bool isGrounded()
+    {
+        return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionMask);
+    }
+
+    public void Spin(InputAction.CallbackContext value)
+    {
+        if (value.started)
+        {
+            animator.SetTrigger("tg");
+        }
+    }
 
     public void Move(InputAction.CallbackContext value)
     {
