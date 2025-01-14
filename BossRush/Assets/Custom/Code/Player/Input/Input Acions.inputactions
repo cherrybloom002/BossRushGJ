@@ -90,7 +90,7 @@
                 {
                     "name": "",
                     "id": "6b15d804-4c8b-48e7-ba16-0ee5fbc8e437",
-                    "path": "<Keyboard>/alt",
+                    "path": "<Mouse>/middleButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -101,7 +101,7 @@
                 {
                     "name": "",
                     "id": "3c099575-7aa6-4de7-a0c1-6a5bdb0f546e",
-                    "path": "<Mouse>/leftButton",
+                    "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

@@ -4,15 +4,23 @@ using UnityEngine.InputSystem;
 public class Attacks : MonoBehaviour
 {
     public GameObject bullet;
-    public Transform bulletPos;
+    [SerializeField]
+    public Transform attackPoint;
     GameObject pos;
-
+    Rigidbody2D rb;
+    Collider2D collider;
+    [SerializeField]
+    float attackRange = 5.5f;
+    public LayerMask enemyLayers;
     private float timer;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         pos = GameObject.FindGameObjectWithTag("BulletPoint");
-        bulletPos = pos.GetComponent<Transform>();
+        attackPoint = pos.GetComponent<Transform>();
+        rb = GetComponent<Rigidbody2D>();
+        collider = GetComponent<Collider2D>();
     }
 
     // Update is called once per frame
@@ -20,12 +28,21 @@ public class Attacks : MonoBehaviour
     {
         
     }
-    public void shoot(InputAction.CallbackContext value)
+    public void shoot(int damage)
     {
-        if (value.started)
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        foreach (Collider2D hit in hitEnemies) 
         {
-            Instantiate(bullet, bulletPos.position, Quaternion.identity);
+            hit.GetComponent<EnemyScript>().TakeDamage(damage);
         }
+        
     }
-    
+
+    private void OnDrawGizmos()
+    {
+        if(attackPoint == null) {  return; }
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
 }

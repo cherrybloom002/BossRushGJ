@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -11,7 +12,6 @@ public class PlayerMovement : MonoBehaviour
     private Transform groundCheck;
     [SerializeField]
     private LayerMask collisionMask;
-    //SpriteRenderer spRend;
     [SerializeField]
     public Animator animator;
     [SerializeField]
@@ -20,13 +20,17 @@ public class PlayerMovement : MonoBehaviour
     public int jumpPower;
     [SerializeField]
     private float groundCheckRadius;
-    
-    
+    [SerializeField]
+    ChargeBarScript charge;
+    [SerializeField]
+    Attacks attack;
+    int damage = 10;
     
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        //spRend = GetComponent<SpriteRenderer>();
+        charge = GetComponentInChildren<ChargeBarScript>();
+        attack = GetComponent<Attacks>();
     }
     
     void Update()
@@ -35,7 +39,6 @@ public class PlayerMovement : MonoBehaviour
 
         bool flipped = moveDirection.x < 0;
         this.transform.rotation = Quaternion.Euler(new Vector3(0f, flipped ? 180f : 0f, 0f));
-
     }
 
     public void Jump(InputAction.CallbackContext value)
@@ -56,19 +59,18 @@ public class PlayerMovement : MonoBehaviour
         if (value.started)
         {
             animator.SetBool("TG", true);
+        }else if (value.canceled)
+        {
+            animator.SetBool("TG", false);
+            attack.shoot(damage);
+            damage = 10;
         }
     }
 
     public void Move(InputAction.CallbackContext value)
     {
         moveDirection = value.ReadValue<Vector2>();
-        //spRend.flipX = rb.linearVelocity.x > 0f;
         
-    }
-
-    public void endAttack()
-    {
-        animator.SetBool("TG", false);
     }
 
     void FixedUpdate()
