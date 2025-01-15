@@ -19,6 +19,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     public int jumpPower;
     [SerializeField]
+    private int maxJump = 2;
+
+    private int jumpLeft;
+    [SerializeField]
     private float groundCheckRadius;
     [SerializeField]
     ChargeBarScript charge;
@@ -30,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         charge = GetComponentInChildren<ChargeBarScript>();
+        jumpLeft = maxJump;
         attack = GetComponent<Attacks>();
     }
     
@@ -43,9 +48,16 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext value)
     {
-        if (value.started && isGrounded())
+
+        if(isGrounded() && rb.linearVelocity.y <= 0)
+        {
+            jumpLeft = maxJump;
+        }
+
+        if (value.started && jumpLeft > 0)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
+
         }
     }
 
