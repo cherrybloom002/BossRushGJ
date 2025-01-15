@@ -457,6 +457,7 @@
 "Assets/Custom/Code/Player/SpinScript.cs"
 "Assets/EnemyHealth.cs"
 "Assets/EnemyScript.cs"
+"Assets/MainMenu.cs"
 -langversion:9.0
 /deterministic
 /optimize+

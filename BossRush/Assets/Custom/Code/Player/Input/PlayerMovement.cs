@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
         if (value.started && jumpLeft > 0)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
-
+            jumpLeft -= 1;
         }
     }
 
