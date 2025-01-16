@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ice_jump_1_0: 6868360647103027990
+      ice_jump_1_1: -106890002973102688
+      ice_jump_1_10: 109567221787526297
+      ice_jump_1_11: 3058655795664742903
+      ice_jump_1_12: 1693828759436607409
+      ice_jump_1_13: 4654145126169183081
+      ice_jump_1_14: -1819464419597391240
+      ice_jump_1_15: -5990910833958621985
+      ice_jump_1_16: 1851231085548578593
+      ice_jump_1_17: 7071344154010692640
+      ice_jump_1_18: 6623398793125427086
+      ice_jump_1_19: -3577320498844817564
+      ice_jump_1_2: -3710220003949490252
+      ice_jump_1_20: 3893286953185798753
+      ice_jump_1_21: -3171344177631469109
+      ice_jump_1_22: 4392020973436348769
+      ice_jump_1_23: 3024719696445558223
+      ice_jump_1_3: 3897093204112798110
+      ice_jump_1_4: 2253052813489177073
+      ice_jump_1_5: 2231883400515918595
+      ice_jump_1_6: -7952472150898213003
+      ice_jump_1_7: 123919639661057593
+      ice_jump_1_8: -1132224981621850476
+      ice_jump_1_9: 4741017024273037024
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
