@@ -449,6 +449,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/ChargeBarScript.cs"
+"Assets/Custom/Code/Bounds.cs"
 "Assets/Custom/Code/Player/Attacks/BulletScript.cs"
 "Assets/Custom/Code/Player/BPscript.cs"
 "Assets/Custom/Code/Player/Input/Attacks.cs"
