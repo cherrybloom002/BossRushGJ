@@ -20,7 +20,6 @@ public class PlayerMovement : MonoBehaviour
     public int jumpPower;
     [SerializeField]
     private int maxJump = 2;
-
     private int jumpLeft;
     [SerializeField]
     private float groundCheckRadius;
