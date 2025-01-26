@@ -65,6 +65,20 @@ public class PlayerMovement : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionMask);
     }
 
+    public void Spec()
+    {
+        attack.shoot(25);
+    }
+    public void endSpec()
+    {
+        animator.SetBool("spec", false);
+    }
+    public void startSpec()
+    {
+        animator.SetBool("spec", true);
+    }
+
+
     public void Spin(InputAction.CallbackContext value)
     {
         if (value.started)

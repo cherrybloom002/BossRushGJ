@@ -15,7 +15,7 @@ C:/Users/acer/Desktop/Projects/unity/BossRushGJ/BossRush
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60381
+53456
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/acer/Desktop/Projects/unity/BossRushGJ/BossRush
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17816]  Target information:
+Player connection [19668]  Target information:
 
-Player connection [17816]  * "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 3014244563 [EditorId] 3014244563 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-HM9BE0PD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19668]  * "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 1962421720 [EditorId] 1962421720 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-HM9BE0PD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17816] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [17816] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19668] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19668] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 57.88 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 24.36 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.32f1 (b2e806cf271c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Editor/Data/Resources/UnitySubsystems
@@ -91,47 +91,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.010080 seconds.
-- Loaded All Assemblies, in  1.298 seconds
+Registered in 0.007412 seconds.
+- Loaded All Assemblies, in  0.633 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.697 seconds
-Domain Reload Profiling: 1990ms
-	BeginReloadAssembly (477ms)
+- Finished resetting the current domain, in  0.558 seconds
+Domain Reload Profiling: 1187ms
+	BeginReloadAssembly (211ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (106ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (118ms)
-	LoadAllAssembliesAndSetupDomain (555ms)
-		LoadAssemblies (477ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (255ms)
+		LoadAssemblies (208ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (544ms)
-			TypeCache.Refresh (541ms)
-				TypeCache.ScanAssembly (495ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (248ms)
+				TypeCache.ScanAssembly (227ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (698ms)
+	FinalizeReload (558ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (634ms)
+		SetupLoadedEditorAssemblies (480ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (52ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (366ms)
-			ProcessInitializeOnLoadMethodAttributes (111ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,11 +143,13 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.661 seconds
+Symbol file data-000001863B9121F0 doesn't match image C:\Users\acer\Desktop\Projects\unity\BossRushGJ\BossRush\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.523 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 22.17 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 23.70 ms, found 6 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -175,111 +177,151 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 19.29 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 23.24 ms, found 6 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.512 seconds
-Domain Reload Profiling: 4164ms
-	BeginReloadAssembly (296ms)
+- Finished resetting the current domain, in  2.362 seconds
+Domain Reload Profiling: 3874ms
+	BeginReloadAssembly (285ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (1191ms)
-		LoadAssemblies (759ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1080ms)
+		LoadAssemblies (642ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (608ms)
-			TypeCache.Refresh (396ms)
-				TypeCache.ScanAssembly (366ms)
-			BuildScriptInfoCaches (179ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (2513ms)
+		AnalyzeDomain (606ms)
+			TypeCache.Refresh (420ms)
+				TypeCache.ScanAssembly (390ms)
+			BuildScriptInfoCaches (159ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2363ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2220ms)
+		SetupLoadedEditorAssemblies (2095ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (237ms)
-			ProcessInitializeOnLoadAttributes (1752ms)
-			ProcessInitializeOnLoadMethodAttributes (202ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (1ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (212ms)
+			ProcessInitializeOnLoadAttributes (1672ms)
+			ProcessInitializeOnLoadMethodAttributes (186ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 20.15 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 29.87 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7067 unused Assets / (5.3 MB). Loaded Objects now: 7677.
-Memory consumption went from 178.4 MB to 173.2 MB.
-Total: 37.262800 ms (FindLiveObjects: 1.118300 ms CreateObjectMapping: 1.385100 ms MarkObjects: 28.610500 ms  DeleteObjects: 6.144000 ms)
+Unloading 7068 unused Assets / (5.8 MB). Loaded Objects now: 7678.
+Memory consumption went from 180.3 MB to 174.5 MB.
+Total: 49.646200 ms (FindLiveObjects: 1.113800 ms CreateObjectMapping: 1.291300 ms MarkObjects: 39.557200 ms  DeleteObjects: 7.681100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41688.936854 seconds.
-  path: Assets/Custom/Sprites/Environment/Ice_tilemap_0.asset
-  artifactKey: Guid(8c110ce930982a54b9c88147f69c395b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Custom/Sprites/Environment/Ice_tilemap_0.asset using Guid(8c110ce930982a54b9c88147f69c395b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f850a8d7e2a09bf64bf7d4b35066739') in 0.1703453 seconds
+  Time since last request: 6419.235276 seconds.
+  path: Assets/Custom/Sprites/Environment/Sand_bg.png
+  artifactKey: Guid(b29dfd50016b2dc41a457436c2f0392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Sprites/Environment/Sand_bg.png using Guid(b29dfd50016b2dc41a457436c2f0392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8a4982d576da48a1a746b1a3a003dac') in 0.2758467 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Custom/Sprites/Environment/Ice_tilemap_7.asset
-  artifactKey: Guid(867401fe152153d4bb81385b1a9d9564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Custom/Sprites/Environment/Ice_tilemap_7.asset using Guid(867401fe152153d4bb81385b1a9d9564) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8671a6b64d6e06269c33327a89788954') in 0.0240934 seconds
+  Time since last request: 177.602547 seconds.
+  path: Assets/Custom/Sprites/Player/Default.physicsMaterial2D
+  artifactKey: Guid(b0013ce5a880c60478da47c0500acedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Sprites/Player/Default.physicsMaterial2D using Guid(b0013ce5a880c60478da47c0500acedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85a5ca89aefb931f7723b46521ed8db5') in 0.0024307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Custom/Sprites/Player/ice_player.prefab
+  artifactKey: Guid(ee09d8b6fcf9d1845b177bd366bac70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Sprites/Player/ice_player.prefab using Guid(ee09d8b6fcf9d1845b177bd366bac70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfd01a4d02ca073960a9a8f51340c49b') in 0.7272059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.674031 seconds.
+  path: Assets/Custom/Sprites/Player/health_bar_player.png
+  artifactKey: Guid(2c7eb79e8d7667d459aa25b90e1cadaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Sprites/Player/health_bar_player.png using Guid(2c7eb79e8d7667d459aa25b90e1cadaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f6bc8ab0df292fd1a4d10e68f85c57d') in 0.0239028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.768568 seconds.
+  path: Assets/Custom/Sprites/Player/ice
+  artifactKey: Guid(746ee254a73a8c04282cf641c641b356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Sprites/Player/ice using Guid(746ee254a73a8c04282cf641c641b356) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5e149a82c8e9539d28ae320269621f6') in 0.0011552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.706107 seconds.
+  path: Assets/Custom/Sprites/Player/ice/ice_idle.png
+  artifactKey: Guid(ed04206d0cba6474a8fc7916441627a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Sprites/Player/ice/ice_idle.png using Guid(ed04206d0cba6474a8fc7916441627a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe74415a89bd9db58d42d4a1f9824f9d') in 0.0459218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Custom/Sprites/Player/ice/ice_run.png
+  artifactKey: Guid(39ea1667561ccce4ab95d35c3be059ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Sprites/Player/ice/ice_run.png using Guid(39ea1667561ccce4ab95d35c3be059ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '943ab776ac571eadd989bad63a678baf') in 0.0769974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Custom/Sprites/Player/ice/ice_spin.png
+  artifactKey: Guid(2e43d4b6516a0494aade55b09fc47c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Sprites/Player/ice/ice_spin.png using Guid(2e43d4b6516a0494aade55b09fc47c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4baaa1bbe30294cceeb205c6620969cd') in 0.0694815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.540741 seconds.
+  path: Assets/Custom/Sprites/Environment/Sand/Sand_tilemap_2.png
+  artifactKey: Guid(5e6d7fd3f6a87e442ac14d66a5f5d52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Sprites/Environment/Sand/Sand_tilemap_2.png using Guid(5e6d7fd3f6a87e442ac14d66a5f5d52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf0ab2771b046711411b6f2778130b88') in 0.0555811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Custom/Sprites/Environment/Sand/Sand_tilemap_2_2.asset
+  artifactKey: Guid(687cd413b38afc248b4ce79f90db51f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Sprites/Environment/Sand/Sand_tilemap_2_2.asset using Guid(687cd413b38afc248b4ce79f90db51f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99e0e8fef4b9f2b7468b204a6466c312') in 0.0288318 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Custom/Sprites/Environment/Ice_tilemap_6.asset
-  artifactKey: Guid(cef17fa4ad15cef4ea542cb853946840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Custom/Sprites/Environment/Ice_tilemap_6.asset using Guid(cef17fa4ad15cef4ea542cb853946840) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b2a32b85796751df5c0ad573a0870e2') in 0.0203722 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Custom/Sprites/Environment/Ice_tilemap_2.asset
-  artifactKey: Guid(70eaf79cf0099f44e80919842c460e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Custom/Sprites/Environment/Ice_tilemap_2.asset using Guid(70eaf79cf0099f44e80919842c460e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf4d1a4952eb5f34a38f6b9e6e91f88a') in 0.0098942 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 148.085180 seconds.
+  Time since last request: 0.000043 seconds.
   path: Assets/Custom/Sprites/Environment/Sand/Sand_tilemap_2_1.asset
   artifactKey: Guid(f9038f399d670f246958b7fa9e5952c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Custom/Sprites/Environment/Sand/Sand_tilemap_2_1.asset using Guid(f9038f399d670f246958b7fa9e5952c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b68164ca9bb6cb6e158abd8d6f70c722') in 0.0287105 seconds
+Start importing Assets/Custom/Sprites/Environment/Sand/Sand_tilemap_2_1.asset using Guid(f9038f399d670f246958b7fa9e5952c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f84453793cac2198a531826c587d3e84') in 0.0384048 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Custom/Sprites/Environment/Sand/Sand_tilemap_2_4.asset
-  artifactKey: Guid(678f64f19db088d4aaf267049c8bd488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Custom/Sprites/Environment/Sand/Sand_tilemap_2_4.asset using Guid(678f64f19db088d4aaf267049c8bd488) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '346d0d8e8ef3cf1b641c1799c7ff9b91') in 0.0184417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
+  Time since last request: 0.000051 seconds.
   path: Assets/Custom/Sprites/Environment/Sand/Sand_tilemap_2_3.asset
   artifactKey: Guid(8908f15d40566774f9489598c15d5552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Custom/Sprites/Environment/Sand/Sand_tilemap_2_3.asset using Guid(8908f15d40566774f9489598c15d5552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d3ff1dce3ecfe9dce08ba7cf3819bd3') in 0.0200846 seconds
+Start importing Assets/Custom/Sprites/Environment/Sand/Sand_tilemap_2_3.asset using Guid(8908f15d40566774f9489598c15d5552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b84d416dc07937bb3f63896e6fabbffe') in 0.0338636 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
+  Time since last request: 0.000032 seconds.
   path: Assets/Custom/Sprites/Environment/Sand/Sand_tilemap_2_7.asset
   artifactKey: Guid(4c45d07443d1978418c5bf69987bfba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Custom/Sprites/Environment/Sand/Sand_tilemap_2_7.asset using Guid(4c45d07443d1978418c5bf69987bfba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6566d11204c0eca9d6bea9e73dc95f4d') in 0.0217028 seconds
+Start importing Assets/Custom/Sprites/Environment/Sand/Sand_tilemap_2_7.asset using Guid(4c45d07443d1978418c5bf69987bfba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d01504e043325d4e6233a6cc56c7aa6') in 0.0177456 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

@@ -448,18 +448,18 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/ChargeBarScript.cs"
+"Assets/Custom/Code/Bosses/EnemyHealth.cs"
+"Assets/Custom/Code/Bosses/EnemyScript.cs"
 "Assets/Custom/Code/Bounds.cs"
 "Assets/Custom/Code/Player/Attacks/BulletScript.cs"
 "Assets/Custom/Code/Player/BPscript.cs"
+"Assets/Custom/Code/Player/ChargeBarScript.cs"
 "Assets/Custom/Code/Player/Input/Attacks.cs"
 "Assets/Custom/Code/Player/Input/flipFP.cs"
 "Assets/Custom/Code/Player/Input/PlayerMovement.cs"
+"Assets/Custom/Code/Player/PlayerScript.cs"
 "Assets/Custom/Code/Player/SpinScript.cs"
-"Assets/EnemyHealth.cs"
-"Assets/EnemyScript.cs"
-"Assets/MainMenu.cs"
-"Assets/PlayerScript.cs"
+"Assets/Custom/Code/UI/MainMenu.cs"
 -langversion:9.0
 /deterministic
 /optimize+
