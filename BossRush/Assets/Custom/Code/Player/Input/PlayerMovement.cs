@@ -28,7 +28,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     Attacks attack;
     int damage = 10;
-    
+    [SerializeField]
+    Slider specialSlider;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -75,7 +77,11 @@ public class PlayerMovement : MonoBehaviour
     }
     public void startSpec()
     {
-        animator.SetBool("spec", true);
+        if (specialSlider.value == 500)
+        {
+            animator.SetBool("spec", true);
+            specialSlider.value = 0;
+        }
     }
 
 

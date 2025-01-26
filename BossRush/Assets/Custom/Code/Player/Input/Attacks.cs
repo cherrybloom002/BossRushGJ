@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class Attacks : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class Attacks : MonoBehaviour
     [SerializeField]
     float attackRange = 5.5f;
     public LayerMask enemyLayers;
+    [SerializeField]
+    Slider specialSlider;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -28,6 +31,7 @@ public class Attacks : MonoBehaviour
         foreach (Collider2D hit in hitEnemies) 
         {
             hit.GetComponent<EnemyScript>().TakeDamage(damage);
+            specialSlider.value += 10;
         }
     }
 
