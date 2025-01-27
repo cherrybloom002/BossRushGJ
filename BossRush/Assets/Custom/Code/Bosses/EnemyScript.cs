@@ -1,6 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using FMODUnity;
 
 public class EnemyScript : MonoBehaviour
 {
@@ -22,6 +23,7 @@ public class EnemyScript : MonoBehaviour
     GameObject player;
     [SerializeField]
     Collider2D bodyCollider;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -72,8 +74,9 @@ public class EnemyScript : MonoBehaviour
     {
         if (collision.collider == PlayerCollider)
         {
-            if (HealthBar.value > 500)
+            if (HealthBar.value > 500) { 
                 animator.SetBool("atk", true);
+            }
             else if (HealthBar.value < 510)
                 animator.SetBool("Uatk", true);
             player.GetComponent<Collider2D>().GetComponent<PlayerScript>().TakeDamage(0.2f);
