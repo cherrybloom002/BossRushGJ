@@ -7,18 +7,20 @@ public class ChargeBarScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] 
     private Slider slider;
+    [SerializeField]
+    Attacks attack;
     bool isHolding;
-    float damageMultiplier;
+    float damage = 2;
 
     // Update is called once per frame
     void Update()
     {
         if (isHolding) 
         {
-            slider.value += (Time.deltaTime / 2);
-            if(slider.value > 1)
+            slider.value += (Time.deltaTime * 1.5f);
+            if(slider.value > 5)
             {
-                slider.value = 1;
+                slider.value = 5;
             }
         }
     }
@@ -31,6 +33,10 @@ public class ChargeBarScript : MonoBehaviour
         }else if (context.canceled)
         {
             isHolding = false;
+            if(slider.value >= 1)
+                damage *= slider.value;
+            attack.shoot(damage);
+            damage = 2;
             slider.value = 0f;
         }
     }

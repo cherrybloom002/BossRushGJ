@@ -12,6 +12,8 @@ public class Attacks : MonoBehaviour
     public LayerMask enemyLayers;
     [SerializeField]
     Slider specialSlider;
+    [SerializeField]
+    Collider2D enemyCollider;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -24,14 +26,17 @@ public class Attacks : MonoBehaviour
     {
         
     }
-    public void shoot(int damage)
+    public void shoot(float damage)
     {
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.transform.position, attackRange, enemyLayers);
 
         foreach (Collider2D hit in hitEnemies) 
         {
-            hit.GetComponent<EnemyScript>().TakeDamage(damage);
-            specialSlider.value += 10;
+            if(hit == enemyCollider)
+            {
+                hit.GetComponent<EnemyScript>().TakeDamage(damage);
+                specialSlider.value += 10;
+            }
         }
     }
 

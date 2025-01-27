@@ -93,8 +93,8 @@ public class PlayerMovement : MonoBehaviour
         }else if (value.canceled)
         {
             animator.SetBool("TG", false);
-            attack.shoot(damage);
-            damage = 10;
+            //attack.shoot(damage);
+            //damage = 10;
         }
     }
 

@@ -34,7 +34,7 @@ public class EnemyScript : MonoBehaviour
 
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         HealthBar.value -= damage;
 
@@ -49,9 +49,8 @@ public class EnemyScript : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.transform.position, attackRange, Player);
 
         foreach (Collider2D hit in hitEnemies)
-        {
             hit.GetComponent<PlayerScript>().TakeDamage(10);
-        }
+        //player.GetComponent<Collider2D>().GetComponent<PlayerScript>().TakeDamage(10f);
     }
     public void underAtk()
     {
@@ -59,14 +58,14 @@ public class EnemyScript : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.transform.position, attackRange, Player);
 
         foreach (Collider2D hit in hitEnemies)
-        {
             hit.GetComponent<PlayerScript>().TakeDamage(10);
-        }
     }
     private void OnDrawGizmos()
     {
         if (attackPoint == null) { return; }
         Gizmos.DrawWireSphere(attackPoint.transform.position, attackRange);
+        if (gameObject == null) { return; }
+        Gizmos.DrawWireCube(gameObject.transform.position + new Vector3(0.45f, -1.3f, 1f), new Vector3(6.4f, 5f, 5f));
     }
 
     public void OnCollisionStay2D(Collision2D collision)
@@ -77,12 +76,13 @@ public class EnemyScript : MonoBehaviour
                 animator.SetBool("atk", true);
             else if (HealthBar.value < 510)
                 animator.SetBool("Uatk", true);
+            player.GetComponent<Collider2D>().GetComponent<PlayerScript>().TakeDamage(0.2f);
         }
     }
 
     //public void Underground()
     //{
-        
+
     //    transform.position -= new Vector3(0f, 7f, 0f);
     //    attackPoint.transform.position = new Vector3(0f, 4f, 0f);
     //}
@@ -94,6 +94,7 @@ public class EnemyScript : MonoBehaviour
     public void EndUAtk()
     {
         animator.SetBool("Uatk", false);
+        gameObject.gameObject.SetActive(false);
     }
     public void Eyet()
     {
