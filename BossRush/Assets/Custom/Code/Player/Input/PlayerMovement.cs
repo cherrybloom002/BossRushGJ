@@ -28,7 +28,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     Attacks attack;
     int damage = 10;
-    
+    [SerializeField]
+    Slider specialSlider;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -65,6 +67,24 @@ public class PlayerMovement : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionMask);
     }
 
+    public void Spec()
+    {
+        attack.shoot(25);
+    }
+    public void endSpec()
+    {
+        animator.SetBool("spec", false);
+    }
+    public void startSpec()
+    {
+        if (specialSlider.value == 500)
+        {
+            animator.SetBool("spec", true);
+            specialSlider.value = 0;
+        }
+    }
+
+
     public void Spin(InputAction.CallbackContext value)
     {
         if (value.started)
@@ -73,8 +93,8 @@ public class PlayerMovement : MonoBehaviour
         }else if (value.canceled)
         {
             animator.SetBool("TG", false);
-            attack.shoot(damage);
-            damage = 10;
+            //attack.shoot(damage);
+            //damage = 10;
         }
     }
 
