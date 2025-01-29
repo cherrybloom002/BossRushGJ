@@ -11,6 +11,8 @@ public class EnemyScript : MonoBehaviour
     [SerializeField]
     LayerMask Player;
     [SerializeField]
+    LayerMask BossLayer;
+    [SerializeField]
     float attackRange = 2.5f;
     [SerializeField]
     Animator animator;
@@ -25,7 +27,7 @@ public class EnemyScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        HealthBar.value = 1000;
+        HealthBar.value = 500;
     }
 
     // Update is called once per frame
@@ -72,20 +74,27 @@ public class EnemyScript : MonoBehaviour
     {
         if (collision.collider == PlayerCollider)
         {
-            if (HealthBar.value > 500)
+            if (HealthBar.value > 250)
                 animator.SetBool("atk", true);
-            else if (HealthBar.value < 510)
+            else if (HealthBar.value < 251)
+            {
                 animator.SetBool("Uatk", true);
-            player.GetComponent<Collider2D>().GetComponent<PlayerScript>().TakeDamage(0.2f);
+                //bodyCollider.callbackLayers -= Player;
+                //AttackCollider.callbackLayers -= Player;
+                //bodyCollider.contactCaptureLayers -= Player;
+                //AttackCollider.contactCaptureLayers -= Player;                        it doesn't work for some reason
+                //player.GetComponent<Collider2D>().callbackLayers -= BossLayer;
+                //player.GetComponent<Collider2D>().contactCaptureLayers -= BossLayer;
+            }
         }
     }
 
-    //public void Underground()
-    //{
+    public void Underground()
+    {
 
-    //    transform.position -= new Vector3(0f, 7f, 0f);
-    //    attackPoint.transform.position = new Vector3(0f, 4f, 0f);
-    //}
+        transform.position = new Vector3(player.transform.position.x, transform.position.y, transform.position.z);
+        attackPoint.transform.position = transform.position;
+    }
 
     public void EndAtk()
     {
@@ -94,7 +103,7 @@ public class EnemyScript : MonoBehaviour
     public void EndUAtk()
     {
         animator.SetBool("Uatk", false);
-        gameObject.gameObject.SetActive(false);
+        //gameObject.gameObject.SetActive(false);
     }
     public void Eyet()
     {

@@ -17,7 +17,7 @@ public class ChargeBarScript : MonoBehaviour
     {
         if (isHolding) 
         {
-            slider.value += (Time.deltaTime * 1.5f);
+            slider.value += (Time.deltaTime * 2f);
             if(slider.value > 5)
             {
                 slider.value = 5;

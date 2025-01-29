@@ -27,7 +27,6 @@ public class PlayerMovement : MonoBehaviour
     ChargeBarScript charge;
     [SerializeField]
     Attacks attack;
-    int damage = 10;
     [SerializeField]
     Slider specialSlider;
 
@@ -44,13 +43,13 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", Mathf.Abs(moveDirection.x));
 
         bool flipped = moveDirection.x < 0;
-        this.transform.rotation = Quaternion.Euler(new Vector3(0f, flipped ? 180f : 0f, 0f));
+        transform.rotation = Quaternion.Euler(new Vector3(0f, flipped ? 180f : 0f, 0f));
     }
 
     public void Jump(InputAction.CallbackContext value)
     {
 
-        if(isGrounded() && rb.linearVelocity.y <= 0)
+        if(isGrounded() /*&& rb.linearVelocity.y <= 0*/)
         {
             jumpLeft = maxJump;
         }
@@ -93,8 +92,6 @@ public class PlayerMovement : MonoBehaviour
         }else if (value.canceled)
         {
             animator.SetBool("TG", false);
-            //attack.shoot(damage);
-            //damage = 10;
         }
     }
 

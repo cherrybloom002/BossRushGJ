@@ -35,7 +35,7 @@ public class Attacks : MonoBehaviour
             if(hit == enemyCollider)
             {
                 hit.GetComponent<EnemyScript>().TakeDamage(damage);
-                specialSlider.value += 10;
+                specialSlider.value += damage * 5f;
             }
         }
     }
