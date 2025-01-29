@@ -463,7 +463,7 @@
 "Assets/Custom/Code/Player/PlayerScript.cs"
 "Assets/Custom/Code/Player/SpinScript.cs"
 "Assets/Custom/Code/UI/MainMenu.cs"
-"Assets/SceneManagementScript.cs"
+"Assets/Custom/Code/UI/SceneManagementScript.cs"
 -langversion:9.0
 /deterministic
 /optimize+

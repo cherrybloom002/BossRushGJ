@@ -5,6 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync(1);
+        int index = Random.Range(1, 4);
+        SceneManager.LoadScene(index);
     }
 }
