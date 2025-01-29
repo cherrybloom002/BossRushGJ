@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1037
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 332}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 182
+  controlID: 94
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 19
+  controlID: 95
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 20
+  controlID: 96
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimatorControllerTool
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -219,14 +219,14 @@ MonoBehaviour:
     y: 0
     width: 645
     height: 693
-  m_MinSize: {x: 50, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 146
+  controlID: 175
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -499,9 +499,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e4f5ffff
-      m_LastClickedID: -2588
-      m_ExpandedIDs: f0f9ffff
+      m_SelectedIDs: 98f3ffff
+      m_LastClickedID: -3176
+      m_ExpandedIDs: f6f9ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1105,9 +1105,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 349.18396, y: 214.91635, z: -6.2519226}
+    m_Target: {x: 1.6728264, y: -1.802299, z: -2.554344}
     speed: 2
-    m_Value: {x: 349.18396, y: 214.91635, z: -6.2519226}
+    m_Value: {x: 1.6728264, y: -1.802299, z: -2.554344}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1157,9 +1157,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 384.84048
+    m_Target: 15.082523
     speed: 2
-    m_Value: 384.84048
+    m_Value: 15.082523
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1326,7 +1326,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Custom/Code/Audio
+    - Assets/Custom/Sprites/Environment
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1336,16 +1336,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 49
   m_LastFolders:
-  - Assets/Custom/Code/Audio
+  - Assets/Custom/Sprites/Environment
   m_LastFoldersGridSize: 49
   m_LastProjectPath: C:\Users\acer\Desktop\Projects\unity\BossRushGJ\BossRush
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: 0cbb0000
-    m_LastClickedID: 47884
-    m_ExpandedIDs: 00000000a8b80000aab80000acb80000aeb80000b0b80000b2b80000ffffff7f
+    m_SelectedIDs: 2abb0000
+    m_LastClickedID: 47914
+    m_ExpandedIDs: 00000000bab80000beb80000c0b80000c2b80000c4b80000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1374,7 +1374,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a8b80000aab80000acb80000aeb80000b0b80000b2b80000
+    m_ExpandedIDs: 00000000bab80000bcb80000beb80000c0b80000c2b80000c4b80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1403,7 +1403,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000072bc00007c050100802f010008e30000b0b900008ab90000aa760000e4ba000000e100008cbb000062bb000032bb000012be0000fabd0000f87600004076000000000000
+    m_ExpandedInstanceIDs: c623000072bc00007c050100802f010008e30000b0b900008ab90000aa760000e4ba000000e100008cbb000062bb000032bb000012be0000fabd0000f8760000407600000000000096bb0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
