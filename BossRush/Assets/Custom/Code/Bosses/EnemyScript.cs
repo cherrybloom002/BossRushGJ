@@ -24,6 +24,8 @@ public class EnemyScript : MonoBehaviour
     GameObject player;
     [SerializeField]
     Collider2D bodyCollider;
+    [SerializeField]
+    GameObject bullet;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -51,16 +53,19 @@ public class EnemyScript : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.transform.position, attackRange, Player);
 
         foreach (Collider2D hit in hitEnemies)
-            hit.GetComponent<PlayerScript>().TakeDamage(10);
-        //player.GetComponent<Collider2D>().GetComponent<PlayerScript>().TakeDamage(10f);
+                hit.GetComponent<PlayerScript>().TakeDamage(10);
     }
     public void underAtk()
     {
-        //attackPoint.transform.position = new Vector3(player.transform.position.x, attackPoint.transform.position.y, attackPoint.transform.position.z);
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.transform.position, attackRange, Player);
 
         foreach (Collider2D hit in hitEnemies)
-            hit.GetComponent<PlayerScript>().TakeDamage(10);
+            hit.GetComponent<PlayerScript>().TakeDamage(20);
+    }
+    public void lavaThrow()
+    {
+        var bull = Instantiate(bullet, attackPoint.transform.position, attackPoint.transform.rotation);
+        bull.GetComponent<Rigidbody2D>().linearVelocityX = player.transform.position.x * 3;
     }
     private void OnDrawGizmos()
     {
@@ -77,21 +82,12 @@ public class EnemyScript : MonoBehaviour
             if (HealthBar.value > 250)
                 animator.SetBool("atk", true);
             else if (HealthBar.value < 251)
-            {
                 animator.SetBool("Uatk", true);
-                //bodyCollider.callbackLayers -= Player;
-                //AttackCollider.callbackLayers -= Player;
-                //bodyCollider.contactCaptureLayers -= Player;
-                //AttackCollider.contactCaptureLayers -= Player;                        it doesn't work for some reason
-                //player.GetComponent<Collider2D>().callbackLayers -= BossLayer;
-                //player.GetComponent<Collider2D>().contactCaptureLayers -= BossLayer;
-            }
         }
     }
 
     public void Underground()
     {
-
         transform.position = new Vector3(player.transform.position.x, transform.position.y, transform.position.z);
         attackPoint.transform.position = transform.position;
     }
@@ -103,7 +99,6 @@ public class EnemyScript : MonoBehaviour
     public void EndUAtk()
     {
         animator.SetBool("Uatk", false);
-        //gameObject.gameObject.SetActive(false);
     }
     public void Eyet()
     {
