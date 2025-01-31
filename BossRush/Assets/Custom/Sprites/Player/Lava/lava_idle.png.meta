@@ -156,12 +156,12 @@ TextureImporter:
       name: lava_idle_0
       rect:
         serializedVersion: 2
-        x: 11
+        x: 0
         y: 0
-        width: 19
-        height: 33
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -178,12 +178,12 @@ TextureImporter:
       name: lava_idle_1
       rect:
         serializedVersion: 2
-        x: 59
+        x: 48
         y: 0
-        width: 19
-        height: 32
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -200,12 +200,12 @@ TextureImporter:
       name: lava_idle_2
       rect:
         serializedVersion: 2
-        x: 107
+        x: 96
         y: 0
-        width: 20
-        height: 34
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -222,12 +222,12 @@ TextureImporter:
       name: lava_idle_3
       rect:
         serializedVersion: 2
-        x: 155
+        x: 144
         y: 0
-        width: 19
-        height: 31
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,10 +258,6 @@ TextureImporter:
       lava_idle_1: -6324420718020076247
       lava_idle_2: 3276913315475367987
       lava_idle_3: -8845399957451798121
-      lava_idle_6: 6224689469639101956
-      lava_idle_7: 4248652006340020930
-      lava_idle_8: 5337904132792439543
-      lava_idle_9: -3553063773785022440
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

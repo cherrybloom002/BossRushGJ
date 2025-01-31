@@ -28,14 +28,15 @@ public class Attacks : MonoBehaviour
     }
     public void shoot(float damage)
     {
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.transform.position, attackRange, enemyLayers);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position, attackRange, enemyLayers);
 
         foreach (Collider2D hit in hitEnemies) 
         {
             if(hit == enemyCollider)
             {
                 hit.GetComponent<EnemyScript>().TakeDamage(damage);
-                specialSlider.value += damage * 5f;
+                if(damage < 25)
+                    specialSlider.value += damage * 5f;
             }
         }
     }
