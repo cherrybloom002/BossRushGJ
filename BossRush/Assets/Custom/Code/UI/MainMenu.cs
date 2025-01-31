@@ -8,5 +8,10 @@ public class MainMenu : MonoBehaviour
         int index = Random.Range(1, 4);
         SceneManager.LoadScene(index);
     }
-}
 
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("You quit the game!");
+    }
+}
