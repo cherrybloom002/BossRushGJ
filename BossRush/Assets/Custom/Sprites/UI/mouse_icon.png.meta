@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: beee7cbe78c11824188c8924aacc8a96
+guid: 8d444323c05f58447a3528fb79748e5d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3891269495536304776
-    second: Gear_0
+      213: 7130982385751882015
+    second: mouse_icon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,12 +126,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gear_0
+      name: mouse_icon_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 39
-        width: 178
+        x: 79
+        y: 55
+        width: 106
         height: 178
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88241c64df0900630800000000000000
-      internalID: 3891269495536304776
+      spriteID: f19fe42c2b656f260800000000000000
+      internalID: 7130982385751882015
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gear_0: 3891269495536304776
+      mouse_icon_0: 7130982385751882015
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
