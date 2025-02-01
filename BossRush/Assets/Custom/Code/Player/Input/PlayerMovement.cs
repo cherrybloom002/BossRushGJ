@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     Attacks attack;
     [SerializeField]
     Slider specialSlider;
+    [SerializeField] private GameObject pauseMenu;
 
     void Start()
     {
@@ -40,10 +41,15 @@ public class PlayerMovement : MonoBehaviour
     
     void Update()
     {
+        if (IsGamePaused()) return;
         animator.SetFloat("Speed", Mathf.Abs(moveDirection.x));
 
         bool flipped = moveDirection.x < 0;
         transform.rotation = Quaternion.Euler(new Vector3(0f, flipped ? 180f : 0f, 0f));
+        if (pauseMenu.activeSelf)
+        {
+            return; // Skip the movement and sprite flipping logic when paused
+        }
     }
 
     public void Jump(InputAction.CallbackContext value)
@@ -97,12 +103,21 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move(InputAction.CallbackContext value)
     {
+        //if (IsGamePaused()) return;
+
         moveDirection = value.ReadValue<Vector2>();
         
     }
 
+    private bool IsGamePaused()
+    {
+        return pauseMenu.activeSelf;
+    }
+
     void FixedUpdate()
     {
+        //if (IsGamePaused()) return;
+
         rb.linearVelocity = new Vector2(moveDirection.x * moveSpeed, rb.linearVelocity.y);
     }
 }
