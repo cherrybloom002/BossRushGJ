@@ -36,7 +36,7 @@ public class ChargeBarScript : MonoBehaviour
             if(slider.value >= 1)
                 damage *= slider.value;
             attack.shoot(damage);
-            damage = 100;
+            damage = 10;
             slider.value = 0f;
         }
     }
