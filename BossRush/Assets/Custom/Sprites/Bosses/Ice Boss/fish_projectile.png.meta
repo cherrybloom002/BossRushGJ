@@ -40,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,10 +132,10 @@ TextureImporter:
       name: fish_projectile_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 25
-        width: 23
-        height: 9
+        x: 17
+        y: 26
+        width: 21
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,10 +154,10 @@ TextureImporter:
       name: fish_projectile_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 25
-        width: 22
-        height: 9
+        x: 65
+        y: 26
+        width: 20
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4393bf29fef83644da95d09301cf1f55
     internalID: 0
     vertices: []
     indices: 
@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fish_projectile_0: -7214880758385398345
+      fish_projectile_1: -6462715800508909121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

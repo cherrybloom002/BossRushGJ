@@ -67,6 +67,11 @@ public class EnemyScript : MonoBehaviour
         var bull = Instantiate(bullet, attackPoint.transform.position, attackPoint.transform.rotation);
         bull.GetComponent<Rigidbody2D>().linearVelocityX = player.transform.position.x * 3;
     }
+    public void iceThrow()
+    {
+        var bull = Instantiate(bullet, attackPoint.transform.position, attackPoint.transform.rotation);
+        bull.GetComponent<Rigidbody2D>().linearVelocity = player.transform.position * 3;
+    }
     private void OnDrawGizmos()
     {
         if (attackPoint == null) { return; }
