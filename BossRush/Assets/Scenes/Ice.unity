@@ -999,6 +999,14 @@ PrefabInstance:
       propertyPath: m_Value
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4577893739538476362, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577893739538476362, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 33
+      objectReference: {fileID: 0}
     - target: {fileID: 7515057467759645195, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1025,7 +1033,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4577893739538476362, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 761893762}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
 --- !u!114 &284349769 stripped
@@ -1064,6 +1075,11 @@ MonoBehaviour:
 --- !u!1 &284349772 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 91053331471240348, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
+  m_PrefabInstance: {fileID: 284349768}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &284349773 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4577893739538476362, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
   m_PrefabInstance: {fileID: 284349768}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &343298624
@@ -1230,7 +1246,7 @@ GameObject:
   - component: {fileID: 761893762}
   - component: {fileID: 761893761}
   m_Layer: 0
-  m_Name: Sand_bg 1
+  m_Name: Ice_bg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1280,12 +1296,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a2ba314c549408b4e884821407d0bb44, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7c2473e31f218834586ad6283ce68cdc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 12.8, y: 7.2}
+  m_Size: {x: 6.4, y: 3.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1299,12 +1315,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761893760}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.43, y: 0.94, z: 13}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -388.28, y: -220.56, z: 13}
+  m_LocalScale: {x: 4.6853356, y: 3.731289, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 284349773}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &810001470
 PrefabInstance:
@@ -3229,7 +3245,6 @@ SceneRoots:
   - {fileID: 72798994}
   - {fileID: 40201654}
   - {fileID: 1363253713}
-  - {fileID: 761893762}
   - {fileID: 810001470}
   - {fileID: 284349768}
   - {fileID: 343298624}

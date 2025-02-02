@@ -1959,6 +1959,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4479291532497639272, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577893739538476362, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577893739538476362, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5343297958595207522, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5343297958595207522, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5343297958595207522, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5343297958595207522, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 5343297958595207522, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 7515057467759645195, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
