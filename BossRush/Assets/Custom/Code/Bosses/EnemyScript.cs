@@ -26,10 +26,12 @@ public class EnemyScript : MonoBehaviour
     Collider2D bodyCollider;
     [SerializeField]
     GameObject bullet;
+    [SerializeField] private GameObject victory;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         HealthBar.value = 500;
+        victory.SetActive(false);
     }
 
     // Update is called once per frame
@@ -44,6 +46,7 @@ public class EnemyScript : MonoBehaviour
 
         if (HealthBar.value <= 0)
         {
+            victory.SetActive(true);
             Destroy(gameObject);
         }
     }

@@ -248,6 +248,38 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: c2513f2d-1777-4824-911b-c8a3b25afc67
     m_ActionName: 'Player inputs/Spin[/Keyboard/s]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7675733519720697133}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: startSpec
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 56b290b4-1e69-4a36-a03b-eae3572df257
+    m_ActionName: 'Player inputs/Special[/Keyboard/e]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8874577680803469082, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 8c63efb8-d17f-482b-9577-0cda44b602d8
+    m_ActionName: 'Player inputs/Pause[/Keyboard/escape]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player inputs
@@ -272,7 +304,13 @@ MonoBehaviour:
   animator: {fileID: 2758322176885247271}
   moveSpeed: 15
   jumpPower: 20
+  maxJump: 2
   groundCheckRadius: 0
+  charge: {fileID: 0}
+  attack: {fileID: 0}
+  specialSlider: {fileID: 0}
+  pauseMenu: {fileID: 0}
+  gameOver: {fileID: 4352551385794077014, guid: dda651cee0672f048a6ba132837378db, type: 3}
 --- !u!114 &2230520908805734312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,7 +324,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 3966001997418157400, guid: 80daf7bf80fb13446982fc05f7202956, type: 3}
-  bulletPos: {fileID: 916093405699461213}
+  attackPoint: {fileID: 0}
+  attackRange: 5.5
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  specialSlider: {fileID: 0}
+  enemyCollider: {fileID: 0}
 --- !u!95 &2758322176885247271
 Animator:
   serializedVersion: 7

@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: ../BossRush_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638740906490503035
+  lastModified: 638741071181773214
   FileSizes:
   - Name: Desktop
-    Value: 1200
+    Value: 1198
   Exists: 1
 --- !u!114 &-4316254654471482688
 MonoBehaviour:
@@ -89,10 +89,10 @@ MonoBehaviour:
   Path: ../BossRush_FMOD/Build/Desktop/Snake.bank
   Name: Snake
   StudioPath: bank:/Snake
-  lastModified: 638740906490603078
+  lastModified: 638741071182316627
   FileSizes:
   - Name: Desktop
-    Value: 824192
+    Value: 824224
   Exists: 1
 --- !u!114 &-795065807175643418
 MonoBehaviour:
@@ -149,7 +149,7 @@ MonoBehaviour:
   - {fileID: 3619695676811555474}
   StringsBanks:
   - {fileID: -6503982313737997844}
-  cacheTime: 638740906490603078
+  cacheTime: 638741071182316627
   cacheVersion: 131621
 --- !u!114 &2033273821490093639
 MonoBehaviour:
@@ -193,10 +193,10 @@ MonoBehaviour:
   Path: ../BossRush_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638740906490433079
+  lastModified: 638741071181753000
   FileSizes:
   - Name: Desktop
-    Value: 1592
+    Value: 1498
   Exists: 1
 --- !u!114 &7465217284467556315
 MonoBehaviour:
@@ -213,7 +213,7 @@ MonoBehaviour:
   Path: ../BossRush_FMOD/Build/Desktop/Lava.bank
   Name: Lava
   StudioPath: bank:/Lava
-  lastModified: 638740906490238843
+  lastModified: 638740891217391603
   FileSizes:
   - Name: Desktop
     Value: 350912
@@ -233,7 +233,7 @@ MonoBehaviour:
   Path: ../BossRush_FMOD/Build/Desktop/Main Menu.bank
   Name: Main Menu
   StudioPath: bank:/Main Menu
-  lastModified: 638740906490352940
+  lastModified: 638741064247281643
   FileSizes:
   - Name: Desktop
     Value: 601856
