@@ -253,7 +253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nonRigidbodyVelocity: 0
-  attenuationObject: {fileID: 0}
+  attenuationObject: {fileID: 536215838}
 --- !u!114 &317077825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2242,11 +2242,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2290931915191082369, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -288
+      value: -278.4
       objectReference: {fileID: 0}
     - target: {fileID: 2290931915191082369, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -201
+      value: -192.3
       objectReference: {fileID: 0}
     - target: {fileID: 4416064788593904676, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
       propertyPath: m_Pivot.x
@@ -2346,11 +2346,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8156883852078336194, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -78
+      value: -64.6
       objectReference: {fileID: 0}
     - target: {fileID: 8156883852078336194, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -204
+      value: -192.3
       objectReference: {fileID: 0}
     - target: {fileID: 8874577680803469082, guid: aed9bf3f58871e8418fe65526534d1da, type: 3}
       propertyPath: m_Name
@@ -2724,6 +2724,46 @@ PrefabInstance:
     - target: {fileID: 7644387822787782574, guid: 3b44367b4b71f1648aed4eaed086589a, type: 3}
       propertyPath: m_Name
       value: Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8770152984563502473, guid: 3b44367b4b71f1648aed4eaed086589a, type: 3}
+      propertyPath: <Lava>k__BackingField.Path
+      value: event:/Lava
+      objectReference: {fileID: 0}
+    - target: {fileID: 8770152984563502473, guid: 3b44367b4b71f1648aed4eaed086589a, type: 3}
+      propertyPath: <bgMusic>k__BackingField.Path
+      value: event:/Lava
+      objectReference: {fileID: 0}
+    - target: {fileID: 8770152984563502473, guid: 3b44367b4b71f1648aed4eaed086589a, type: 3}
+      propertyPath: <Lava>k__BackingField.Guid.Data1
+      value: -231247739
+      objectReference: {fileID: 0}
+    - target: {fileID: 8770152984563502473, guid: 3b44367b4b71f1648aed4eaed086589a, type: 3}
+      propertyPath: <Lava>k__BackingField.Guid.Data2
+      value: 1335512481
+      objectReference: {fileID: 0}
+    - target: {fileID: 8770152984563502473, guid: 3b44367b4b71f1648aed4eaed086589a, type: 3}
+      propertyPath: <Lava>k__BackingField.Guid.Data3
+      value: 453318049
+      objectReference: {fileID: 0}
+    - target: {fileID: 8770152984563502473, guid: 3b44367b4b71f1648aed4eaed086589a, type: 3}
+      propertyPath: <Lava>k__BackingField.Guid.Data4
+      value: -410287517
+      objectReference: {fileID: 0}
+    - target: {fileID: 8770152984563502473, guid: 3b44367b4b71f1648aed4eaed086589a, type: 3}
+      propertyPath: <bgMusic>k__BackingField.Guid.Data1
+      value: -231247739
+      objectReference: {fileID: 0}
+    - target: {fileID: 8770152984563502473, guid: 3b44367b4b71f1648aed4eaed086589a, type: 3}
+      propertyPath: <bgMusic>k__BackingField.Guid.Data2
+      value: 1335512481
+      objectReference: {fileID: 0}
+    - target: {fileID: 8770152984563502473, guid: 3b44367b4b71f1648aed4eaed086589a, type: 3}
+      propertyPath: <bgMusic>k__BackingField.Guid.Data3
+      value: 453318049
+      objectReference: {fileID: 0}
+    - target: {fileID: 8770152984563502473, guid: 3b44367b4b71f1648aed4eaed086589a, type: 3}
+      propertyPath: <bgMusic>k__BackingField.Guid.Data4
+      value: -410287517
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3130,13 +3170,13 @@ CanvasRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 317077827}
   - {fileID: 1626122873}
   - {fileID: 971423699}
   - {fileID: 667616717}
   - {fileID: 769716589}
   - {fileID: 1974428066}
   - {fileID: 1386120035}
-  - {fileID: 317077827}
   - {fileID: 1476351557}
   - {fileID: 1558246715}
   - {fileID: 1134216169}

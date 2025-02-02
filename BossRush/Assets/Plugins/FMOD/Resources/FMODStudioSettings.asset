@@ -488,6 +488,8 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Lava
+  - Main Menu
   - Snake
   BanksToLoad: []
   LiveUpdatePort: 9264
