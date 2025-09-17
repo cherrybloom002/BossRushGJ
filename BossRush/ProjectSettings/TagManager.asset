@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - BulletPoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Attack
+  - Player
+  - Minions
+  - Boss
+  - Items
+  - Ground
+  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 2262137769
+    locked: 0
+  - name: Attack
+    uniqueID: 335107009
+    locked: 0
+  - name: Player
+    uniqueID: 1295199745
+    locked: 0
+  - name: Minions
+    uniqueID: 3988138575
+    locked: 0
+  - name: Boss
+    uniqueID: 3993539277
+    locked: 0
+  - name: Items
+    uniqueID: 1273798281
+    locked: 0
+  - name: Background
+    uniqueID: 3866386657
+    locked: 0
+  m_RenderingLayers:
+  - Default

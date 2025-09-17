@@ -1,0 +1,620 @@
+fileFormatVersion: 2
+guid: 39ea1667561ccce4ab95d35c3be059ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1808288464085727935
+    second: ice_run_0
+  - first:
+      213: 2561350880132659969
+    second: ice_run_1
+  - first:
+      213: -7832255972157692736
+    second: ice_run_2
+  - first:
+      213: 7363901779997080514
+    second: ice_run_3
+  - first:
+      213: 6170226232959226395
+    second: ice_run_4
+  - first:
+      213: 8031858085232670877
+    second: ice_run_5
+  - first:
+      213: -8940867871856920586
+    second: ice_run_6
+  - first:
+      213: 2540856425881213516
+    second: ice_run_7
+  - first:
+      213: 7998774684582716840
+    second: ice_run_8
+  - first:
+      213: 7359504445890658250
+    second: ice_run_9
+  - first:
+      213: 5207158326118257335
+    second: ice_run_10
+  - first:
+      213: -2657300652391367128
+    second: ice_run_11
+  - first:
+      213: 1237185971905925306
+    second: ice_run_12
+  - first:
+      213: 5095556281330856611
+    second: ice_run_13
+  - first:
+      213: -3223780463460803289
+    second: ice_run_14
+  - first:
+      213: -169265425230110321
+    second: ice_run_15
+  - first:
+      213: -5556538861390948574
+    second: ice_run_16
+  - first:
+      213: 3465659202050022035
+    second: ice_run_17
+  - first:
+      213: 3327723070214780234
+    second: ice_run_18
+  - first:
+      213: -7779367766730711120
+    second: ice_run_19
+  - first:
+      213: 5010690413299937581
+    second: ice_run_20
+  - first:
+      213: 5458621289449605345
+    second: ice_run_21
+  - first:
+      213: -8104148683628987944
+    second: ice_run_22
+  - first:
+      213: 7618094199796382776
+    second: ice_run_23
+  - first:
+      213: -5019358261009088506
+    second: ice_run_24
+  - first:
+      213: 7676439029614719263
+    second: ice_run_25
+  - first:
+      213: 2708385669586689755
+    second: ice_run_26
+  - first:
+      213: -6378577251524208775
+    second: ice_run_27
+  - first:
+      213: -8574393550497646927
+    second: ice_run_28
+  - first:
+      213: -4255612031745420681
+    second: ice_run_29
+  - first:
+      213: 4845220996832660911
+    second: ice_run_30
+  - first:
+      213: 6576831268069028428
+    second: ice_run_31
+  - first:
+      213: -5574631720128153078
+    second: ice_run_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ice_run_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba344107c4581910800000000000000
+      internalID: 1808288464085727935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_run_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4eb9db0bc3e4390800000000000000
+      internalID: -7832255972157692736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_run_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12d45f411c01a550800000000000000
+      internalID: 6170226232959226395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_run_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7f3429a08abe380800000000000000
+      internalID: -8940867871856920586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_run_4
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5a0f0423b510f60800000000000000
+      internalID: 7998774684582716840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_run_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b21f7da8ea834840800000000000000
+      internalID: 5207158326118257335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_run_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 0
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab09c88261e5b2110800000000000000
+      internalID: 1237185971905925306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_run_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d1391bfb4d243d0800000000000000
+      internalID: -3223780463460803289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_run_8
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8167681ef5a6adf0800000000000000
+      internalID: -169265425230110321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_run_9
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45360750827e2e20800000000000000
+      internalID: 3327723070214780234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_run_10
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21b234126c898540800000000000000
+      internalID: 5010690413299937581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_run_11
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cb354ff48e8b960800000000000000
+      internalID: 7618094199796382776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_run_12
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11312c30a0388a60800000000000000
+      internalID: 7676439029614719263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_run_13
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6ff22be72a10980800000000000000
+      internalID: -8574393550497646927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_run_14
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad897653dead3340800000000000000
+      internalID: 4845220996832660911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_run_15
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 0
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0af2287cfde2a2b0800000000000000
+      internalID: -5574631720128153078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d895c9c83e40c184488cafd1d089b8da
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ice_run_0: 1808288464085727935
+      ice_run_1: -7832255972157692736
+      ice_run_10: 5010690413299937581
+      ice_run_11: 7618094199796382776
+      ice_run_12: 7676439029614719263
+      ice_run_13: -8574393550497646927
+      ice_run_14: 4845220996832660911
+      ice_run_15: -5574631720128153078
+      ice_run_16: -5556538861390948574
+      ice_run_17: 3465659202050022035
+      ice_run_19: -7779367766730711120
+      ice_run_2: 6170226232959226395
+      ice_run_21: 5458621289449605345
+      ice_run_22: -8104148683628987944
+      ice_run_24: -5019358261009088506
+      ice_run_26: 2708385669586689755
+      ice_run_27: -6378577251524208775
+      ice_run_29: -4255612031745420681
+      ice_run_3: -8940867871856920586
+      ice_run_31: 6576831268069028428
+      ice_run_4: 7998774684582716840
+      ice_run_5: 5207158326118257335
+      ice_run_6: 1237185971905925306
+      ice_run_7: -3223780463460803289
+      ice_run_8: -169265425230110321
+      ice_run_9: 3327723070214780234
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

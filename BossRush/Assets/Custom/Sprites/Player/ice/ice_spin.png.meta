@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: 2e43d4b6516a0494aade55b09fc47c86
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -662230740799224317
+    second: ice_spin_2_0
+  - first:
+      213: 4438486310271669655
+    second: ice_spin_2_1
+  - first:
+      213: -4317835420500593627
+    second: ice_spin_2_2
+  - first:
+      213: -8420102386404152686
+    second: ice_spin_2_3
+  - first:
+      213: 3119252854185857633
+    second: ice_spin_2_4
+  - first:
+      213: 7569106843145632621
+    second: ice_spin_2_5
+  - first:
+      213: -7615563538568537443
+    second: ice_spin_2_6
+  - first:
+      213: -805560752176775105
+    second: ice_spin_2_7
+  - first:
+      213: -7285888694258206799
+    second: ice_spin_2_8
+  - first:
+      213: 8919823257469406280
+    second: ice_spin_2_9
+  - first:
+      213: -2672924206467354063
+    second: ice_spin_2_10
+  - first:
+      213: 3938537780525497871
+    second: ice_spin_2_11
+  - first:
+      213: 5764425474726243696
+    second: ice_spin_2_12
+  - first:
+      213: 4521083999254049715
+    second: ice_spin_2_13
+  - first:
+      213: 2263711439540250013
+    second: ice_spin_2_14
+  - first:
+      213: -5283684797816013133
+    second: ice_spin_2_15
+  - first:
+      213: -5706754170689931668
+    second: ice_spin_2_16
+  - first:
+      213: 3357776395123332100
+    second: ice_spin_2_17
+  - first:
+      213: -337893430578020431
+    second: ice_spin_2_18
+  - first:
+      213: 2732237661987796841
+    second: ice_spin_2_19
+  - first:
+      213: -4346676901889924753
+    second: ice_spin_2_20
+  - first:
+      213: 4508785445001774921
+    second: ice_spin_2_21
+  - first:
+      213: -1172429201098096193
+    second: ice_spin_2_22
+  - first:
+      213: 352081494223050551
+    second: ice_spin_2_23
+  - first:
+      213: -8406495294158576151
+    second: ice_spin_2_24
+  - first:
+      213: -7639539829459346082
+    second: ice_spin_2_25
+  - first:
+      213: 8421318915022140925
+    second: ice_spin_2_26
+  - first:
+      213: 2873537321340339093
+    second: ice_spin_2_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ice_spin_2_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306815f56a84fc6f0800000000000000
+      internalID: -662230740799224317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_spin_2_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 0
+        width: 8
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524767adf87f314c0800000000000000
+      internalID: -4317835420500593627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_spin_2_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1621f52c1ffc94b20800000000000000
+      internalID: 3119252854185857633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_spin_2_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 0
+        width: 8
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a94378f45105690800000000000000
+      internalID: -7615563538568537443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_spin_2_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b774b9b5d253ea90800000000000000
+      internalID: -7285888694258206799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_spin_2_6
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 8
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13278f1989dd7ead0800000000000000
+      internalID: -2672924206467354063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_spin_2_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 0
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d25439d6a5fff40800000000000000
+      internalID: 5764425474726243696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_spin_2_8
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 0
+        width: 8
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95e8c38f815a6f10800000000000000
+      internalID: 2263711439540250013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_spin_2_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c663c8341598dc0b0800000000000000
+      internalID: -5706754170689931668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_spin_2_10
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 0
+        width: 8
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf757217bf8f4bf0800000000000000
+      internalID: -337893430578020431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_spin_2_11
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61a47d23608da3c0800000000000000
+      internalID: -4346676901889924753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_spin_2_12
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 0
+        width: 8
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1c0487ad1babfe0800000000000000
+      internalID: -1172429201098096193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_spin_2_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e56fa9c111265b80800000000000000
+      internalID: -8406495294158576151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice_spin_2_13
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593815718fad0e720800000000000000
+      internalID: 2873537321340339093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f031ba04491958f4e9725d8261f24399
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ice_spin_2_0: -8406495294158576151
+      ice_spin_2_1: -662230740799224317
+      ice_spin_2_10: -337893430578020431
+      ice_spin_2_11: -4346676901889924753
+      ice_spin_2_12: -1172429201098096193
+      ice_spin_2_13: 2873537321340339093
+      ice_spin_2_15: -5283684797816013133
+      ice_spin_2_17: 3357776395123332100
+      ice_spin_2_19: 2732237661987796841
+      ice_spin_2_2: -4317835420500593627
+      ice_spin_2_21: 4508785445001774921
+      ice_spin_2_23: 352081494223050551
+      ice_spin_2_25: -7639539829459346082
+      ice_spin_2_26: 8421318915022140925
+      ice_spin_2_3: 3119252854185857633
+      ice_spin_2_4: -7615563538568537443
+      ice_spin_2_5: -7285888694258206799
+      ice_spin_2_6: -2672924206467354063
+      ice_spin_2_7: 5764425474726243696
+      ice_spin_2_8: 2263711439540250013
+      ice_spin_2_9: -5706754170689931668
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
