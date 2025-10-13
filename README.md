@@ -31,7 +31,7 @@ The player can change elemental forms, which affect visuals and abilities:
 - Fire Form: Visual fire effects.
 - Planned: Sand Form (not implemented).
 
->The original concept involved a slot-machine-like mechanic to randomly select the player form and boss per round, inspired by the game jam theme "Spin," but it was not implemented due to development constraints.#
+>The original concept involved a slot-machine-like mechanic to randomly select the player form and boss per round, inspired by the game jam theme "Spin," but it was not implemented due to development constraints.
 
 ### Gameplay
 
