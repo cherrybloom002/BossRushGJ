@@ -1,54 +1,52 @@
-#ReadME
-#BossRushGJ
+# ReadME
+## BossRushGJ
 
-#Repository for "BossRush Game Jam 2025"
+### Repository for "BossRush Game Jam 2025"
 
-#The Team:
--Cherrybloom02, Programmer
--Armagheddon, Programmer
--Gofflog, 2D Artist
--Gramaquando, Composer
+### The Team:
+- Cherrybloom02, Programmer
+- Armagheddon, Programmer
+- Gofflog, 2D Artist
+- Gramaquando, Composer
 
-#The game can also be found on itch.io: https://cherrybloom002.itch.io/elemental-dancers
+>The game can also be found on itch.io: https://cherrybloom002.itch.io/elemental-dancers
 
-#Summary
+## Summary
 
 Elemental Dancers is a boss rush game where the player fights a series of elemental bosses. Each boss has unique attack patterns and phases.
 
-#Bosses
+### Bosses
 
--Sand Boss: A snake that bites the player when nearby. In the second phase, it burrows underground and attacks from below.
+- Sand Boss: A snake that bites the player when nearby. In the second phase, it burrows underground and attacks from below.
 
--Volcano Boss: A golem that attacks on contact. In the second phase, it throws rocks at the player.
+- Volcano Boss: A golem that attacks on contact. In the second phase, it throws rocks at the player.
 
--Iceberg Boss (WIP): A killer whale that throws icicles (currently incomplete and non-functional).
+- Iceberg Boss (WIP): A killer whale that throws icicles (currently incomplete and non-functional).
 
-#Player Forms
+### Player Forms
 
 The player can change elemental forms, which affect visuals and abilities:
 
--Ice Form: Visual ice effects.
+- Ice Form: Visual ice effects.
+- Fire Form: Visual fire effects.
+- Planned: Sand Form (not implemented).
 
--Fire Form: Visual fire effects.
+>The original concept involved a slot-machine-like mechanic to randomly select the player form and boss per round, inspired by the game jam theme "Spin," but it was not implemented due to development constraints.#
 
--Planned: Sand Form (not implemented).
+### Gameplay
 
-#The original concept involved a slot-machine-like mechanic to randomly select the player form and boss per round, inspired by the game jam theme "Spin," but it was not implemented due to development constraints.#
+- Movement: A / D keys (Joystick compatible)
 
-#Gameplay
+- Attack: Right mouse click (hold for charged attack)
 
--Movement: A / D keys (Joystick compatible)
+- Jump: Space
 
--Attack: Right mouse click (hold for charged attack)
+- Special Ability: E
 
--Jump: Space
+- Pause: Esc
 
--Special Ability: E
+### Additional notes:
 
--Pause: Esc
+- Iceberg Boss currently lacks a custom soundtrack.
 
-#Additional notes:
-
--Iceberg Boss currently lacks a custom soundtrack.
-
--Sountrack might not work properly in the build
+- Sountrack might not work properly in the build
